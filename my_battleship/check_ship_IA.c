@@ -1,23 +1,10 @@
-/*
-** check_ship_IA.c for  in /home/mohamd_y/Piscine/Langage_C/my_battleship
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Sat Oct  4 13:15:29 2014 MOHAMDI Yanis
-** Last update Sat Oct  4 14:10:27 2014 MOHAMDI Yanis
-*/
 void    my_putchar(char c);
 void    my_putstr(char *str);
 void    my_put_nbr(int n);
 void    display_map(int battlefield[10][10], char *str);
 void    check_end(int bf[10][10], int bf_player[10][10], int *end, int nb, int nbP, int count);
 
-/*
-** FONCTION CHECH SHIP
-** Permet de gerer si tout les bateaux sont coules
-** Mets fin a la partie
-*/
+
 void    check_ship_IA(int battlefield[10][10], int bf_player[10][10], int *end, int count)
 {
   int   i;
