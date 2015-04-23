@@ -1,13 +1,3 @@
-/*
-** functions.c for  in /home/yanis/Projets/C/my_printf
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Wed Mar  4 09:59:42 2015 MOHAMDI Yanis
-** Last update Fri Mar  6 11:56:35 2015 LANCIEN Andrew
-*/
-
 #include        <stdarg.h>
 #include        <stdio.h>
 #include        <unistd.h>
