@@ -1,13 +1,5 @@
-#!/usr/bin/env php
 <?php
-// no_x.php for  in /home/diman_i/no_x
-//
-// Made by Diman Ioan-Adrian
-// Login   <diman_i@etna-alternance.net>
-//
-// Started on  Thu Nov  6 09:15:38 2014 Diman Ioan-Adrian
-// Last update Mon Nov 10 17:13:26 2014 Diman Ioan-Adrian
-//
+
 require('erreurs.php');
 require('nox_o.php');
 $dico = array(
