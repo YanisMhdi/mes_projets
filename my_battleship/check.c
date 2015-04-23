@@ -3,12 +3,7 @@ int     my_strncmp(char *s1, char *s2, int n);
 void	my_putstr(char *str);
 void	hit(int battlefield[10][10], int line, int column);
 
-/*
-** FONCTION CHECK
-** Verifie les coordonnees entrees
-** Retourne 0 si les coordonnes sont valides
-** Retourne 1 sinon
-*/
+
 int	check(char *coord, int *end, int battlefield[10][10])
 {
   int	x;
