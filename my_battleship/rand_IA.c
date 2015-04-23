@@ -1,12 +1,3 @@
-/*
-** rand_IA.c for  in /home/mohamd_y/Piscine/Langage_C/my_battleship
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Sat Oct  4 12:44:57 2014 MOHAMDI Yanis
-** Last update Sat Oct  4 13:37:09 2014 MOHAMDI Yanis
-*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
