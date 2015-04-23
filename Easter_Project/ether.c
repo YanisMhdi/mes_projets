@@ -1,13 +1,3 @@
-/*
-** ether.c for  in /home/regency/Repo
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Mon Apr 13 10:18:30 2015 IRICANIN Filip
-** Last update Mon Apr 13 10:18:32 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
