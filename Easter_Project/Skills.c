@@ -1,13 +1,3 @@
-/*
-** attacks.c for  in /home/regency/Midgar/irican_f
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Fri Oct 10 11:07:21 2014 IRICANIN Filip
-** Last update Sun Apr 12 12:39:04 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
