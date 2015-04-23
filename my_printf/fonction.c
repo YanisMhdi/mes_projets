@@ -1,13 +1,3 @@
-/*
-** fonction.c for  in /home/andrew/myprintf
-** 
-** Made by LANCIEN Andrew
-** Login   <lancie_a@etna-alternance.net>
-** 
-** Started on  Wed Mar  4 08:20:08 2015 LANCIEN Andrew
-** Last update Wed Mar  4 08:21:26 2015 LANCIEN Andrew
-*/
-
 #include        <stdarg.h>
 #include        <stdio.h>
 #include        <unistd.h>
