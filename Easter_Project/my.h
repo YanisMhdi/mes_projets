@@ -1,13 +1,3 @@
-/*
-** my.h for  in /home/regency/Repo
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Mon Apr 13 10:17:59 2015 IRICANIN Filip
-** Last update Mon Apr 13 10:18:02 2015 IRICANIN Filip
-*/
-
 #ifndef MY_H__
 #define MY_H__
 
