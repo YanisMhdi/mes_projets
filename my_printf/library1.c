@@ -1,13 +1,3 @@
-/*
-** librrary.c for  in /home/andrew/myprintf
-** 
-** Made by LANCIEN Andrew
-** Login   <lancie_a@etna-alternance.net>
-** 
-** Started on  Wed Mar  4 04:30:24 2015 LANCIEN Andrew
-** Last update Fri Mar  6 11:57:32 2015 LANCIEN Andrew
-*/
-
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
