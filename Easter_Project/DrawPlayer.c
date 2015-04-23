@@ -1,13 +1,3 @@
-/*
-** DrawPlayer.c for  in /home/regency
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Sun Apr 12 12:12:06 2015 IRICANIN Filip
-** Last update Sun Apr 12 20:38:06 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
