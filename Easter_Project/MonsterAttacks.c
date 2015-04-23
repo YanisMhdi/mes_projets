@@ -1,13 +1,3 @@
-/*
-** m_attacks.c for  in /home/regency/Midgar/irican_f
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Fri Oct 10 11:44:33 2014 IRICANIN Filip
-** Last update Sun Apr 12 12:35:16 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <SDL/SDL.h>
