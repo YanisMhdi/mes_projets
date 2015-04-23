@@ -1,12 +1,3 @@
-/*
-** check.c for  in /home/mohamd_y/Piscine/Langage_C/my_battleship
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Sat Oct  4 09:27:18 2014 MOHAMDI Yanis
-** Last update Sat Oct  4 13:58:10 2014 MOHAMDI Yanis
-*/
 int	my_strcmp(char *s1, char *s2);
 int     my_strncmp(char *s1, char *s2, int n);
 void	my_putstr(char *str);
