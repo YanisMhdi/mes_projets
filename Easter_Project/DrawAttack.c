@@ -1,13 +1,3 @@
-/*
-** DrawAttack.c for  in /home/regency
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Sun Apr 12 12:06:08 2015 IRICANIN Filip
-** Last update Sun Apr 12 19:39:24 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <SDL/SDL.h>
