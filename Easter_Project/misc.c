@@ -1,13 +1,3 @@
-/*
-** misc.c for  in /home/regency
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Sun Apr 12 12:32:19 2015 IRICANIN Filip
-** Last update Sun Apr 12 18:36:50 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
