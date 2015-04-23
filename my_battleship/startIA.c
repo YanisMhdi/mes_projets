@@ -1,12 +1,3 @@
-/*
-** startIA.c for  in /home/mohamd_y/Piscine/Langage_C/my_battleship
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Sat Oct  4 11:58:37 2014 MOHAMDI Yanis
-** Last update Sat Oct  4 14:18:10 2014 MOHAMDI Yanis
-*/
 void    display_map(int battlefield[10][10], char *str);
 void    display_count(int count);
 char    *readLine();
@@ -18,11 +9,7 @@ void    my_putstr(char *str);
 char	*my_strupcase(char *str);
 void	rand_IA(int bf_player[10][10]);
 
-/*
-** FONCTION START
-** Regroupe le deroulement d'une partie
-** Chaque iteration du while compte comme un tour
-*/
+
 void    startIA(int count, int battlefield[10][10], int bf_player[10][10])
 {
   int   end;
