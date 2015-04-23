@@ -1,0 +1,186 @@
+#formulaire a
+{
+    font: 0.8em sans-serif;
+}
+
+#formulaire h2
+{
+    margin-left: 20px;
+}
+
+#formulaire hr
+{
+    width: 97%;
+}
+
+#titre1
+{	
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	border-radius: 5px;
+	background: linear-gradient(#E50F00, #BF0500);
+}
+
+#titre1 h5
+{
+    margin-top: 6px;
+    text-align: center;
+}
+
+#titre2
+{
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	border-radius: 5px;
+	background: linear-gradient(#E50F00, #BF0500);
+}
+
+#titre2 h5
+{
+    margin-top:6px;
+    text-align:center;
+}
+#identite
+{
+    margin-left: 10px;
+    height: 465px;
+    width: 490px;
+    float: left;
+    display: table;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+#identite input[type=text]
+{
+    border-radius: 5px;
+    border:1px solid #d0d0d0;
+}
+
+#identite a
+{
+    margin-left: 10px;
+}
+
+#facturation
+{
+    margin-right: 10px;
+    margin-top: auto;
+    height: 465px;
+    width: 490px;
+    float: right;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+#facturation input[type=text]
+{
+    border-radius: 5px;
+    border:1px solid #d0d0d0;
+}
+
+#facturation a
+{
+    margin-left: 10px;
+} 
+
+#confirmation
+{
+    position: relative;
+    float: left;
+    width: 980px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+#annuler
+{ 
+    position: relative;
+    margin-left: 390px;
+    border-radius : 5px;
+    width: 80px;
+    height: 28px;
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer; background: linear-gradient(#E50F00, #BF0500);
+}
+
+#valider
+{ 
+    margin-top: 10px;
+    position: relative;
+    margin-left: 20px;
+    border-radius : 5px;
+    width: 80px;
+    height: 28px;
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+#ch1
+{
+   margin-left: 72px;
+} 
+
+#ch2
+{
+    margin-left: 42px;
+}
+
+#ch3
+{
+    margin-left: 42px;
+}
+
+#ch4
+{
+    margin-left: 19px;
+}
+
+#ch6
+{
+    margin-left: 111px;
+}
+
+#ch7
+{
+    margin-left: 93px;
+}
+
+#cp1
+{
+    margin-left: 66px;
+}
+#cp2
+{
+    margin-left: 45px;
+}
+#cp3
+{
+    margin-left: 42px;
+}
+#cp5
+{
+    margin-left: 72px;
+}
+#cp6
+{
+    margin-left: 16px;
+}
+

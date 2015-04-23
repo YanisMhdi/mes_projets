@@ -1,0 +1,103 @@
+#connect a
+{
+    font: 0.8em sans-serif;
+}
+
+#connect h2
+{
+    text-align: center;
+}
+
+#connect hr
+{
+    width: 80%;
+}
+
+#titre1
+{	
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	border-radius: 5px;
+	background: linear-gradient(#E50F00, #BF0500);
+}
+
+#titre1 h5
+{
+    margin-top: 6px;
+    text-align: center;
+}
+
+#titre2
+{
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	border-radius: 5px;
+	background: linear-gradient(#E50F00, #BF0500);
+}
+
+#titre2 h5
+{
+    margin-top:6px;
+    text-align:center;
+}
+#identite
+{
+    margin-left: 260px;
+    height: 370px;
+    width: 490px;
+    float: left;
+    display: table;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-radius: 5px;
+    border-color: red;
+}
+
+#identite input[type=text]
+{
+    border-radius: 5px;
+    border:1px solid #d0d0d0;
+}
+
+#identite a
+{
+    margin-left: 40px;
+}
+
+#ch1, #ch2
+{
+    margin-left: 40px;
+    width: 400px;
+    height: 30px;
+}
+
+#identite input[type=button]
+{
+    height: 30px;
+    border-radius : 5px;
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    float: right;
+    margin-right: 50px;
+}
+
+
+#signin
+{
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: 1px solid red;
+    width: 488px;
+    position: relative;
+    float: left;
+}
+
+#signin input[type=button]
+{
+    width: 85px;
+}

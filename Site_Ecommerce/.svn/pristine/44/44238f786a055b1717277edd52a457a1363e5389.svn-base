@@ -1,0 +1,84 @@
+#contact a
+{
+    font: 0.8em sans-serif;
+}
+
+#contact h2
+{
+    margin-left: 100px;
+}
+
+#contact hr
+{
+    width: 80%;
+}
+
+#titre1
+{	
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	border-radius: 5px;
+	background: linear-gradient(#E50F00, #BF0500);
+}
+
+#titre1 h5
+{
+    margin-top: 6px;
+    text-align: center;
+}
+
+#titre2
+{
+	height: 30px;
+	border: 1px solid;
+	border-color: grey;
+	border-radius: 5px;
+	background: linear-gradient(#E50F00, #BF0500);
+}
+
+#titre2 h5
+{
+    margin-top:6px;
+    text-align:center;
+}
+#contactform
+{
+    margin-left: 100px;
+    height: 370px;
+    width: 800px;
+    float: left;
+    display: table;
+}
+
+#msg
+{
+    height: 80px;
+}
+
+#bt1
+{
+    margin-left: 330px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+#bt2
+{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+#contact input[type=text], textarea
+{
+    border-radius: 5px;
+    border: 1px solid #383838;
+}

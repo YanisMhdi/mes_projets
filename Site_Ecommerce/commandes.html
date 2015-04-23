@@ -1,0 +1,133 @@
+  <!DOCTYPE html>
+<head>
+  <title>Shinra Corp.</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="footer.css" />
+  <link rel="stylesheet" type="text/css" href="cmd.css" >
+</head>
+<body>
+  <div id="body">
+    <div id="header">
+      <div id="logo">
+	<a href="index.html"><img src="images/logo.png" alt=""/></a>
+      </div>
+      <div id="search">
+	<form>
+	  <span><input type="text" name="recherche" placeholder="Recherche un produit..."/><input type="submit" value="Search"/></span>
+	</form>
+      </div>
+      <div id="connexion">
+	<img src="images/connect.png" alt="connect.png" id="img_connect" />
+	<p>Bienvenue, USER<br/>Derni&egrave;re connexion le 18/11/14<p>
+      </div>
+      <div id="panier">
+	<a href="commandes.html"><img src="images/cart.png" alt="cart.png" id="img_panier" /></a>
+	<a href="commandes.html"><p>Mon panier<br />0 Produit(s)<br />0,00 &#8364</p></a>
+      </div>
+      <div id="slogan">
+	<img src="images/ecom.jpeg" alt="ecom" id="ecom" />
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+	<li><center><a href="index.html">Accueil</a></center></li>
+	<li><center><a href="listeprod.html">Produits</a></center></li>
+	<li><center><a href="contact.html">Contact</a></center></li>
+	<li><center><a href="sav.html">S.A.V</a></center></li>
+      </ul>
+    </div>
+    <div id="recap">
+    <h2>Mes commandes</h2>
+    <hr></hr>
+    <div id="tableau">
+      <table id="tab">
+	<tr>
+	  <th>Nom du produit</th>
+	  <th>Prix H.T (en &#8364)</th>
+	  <th>Prix TTC (en &#8364)</th>
+	  <th>Quantite</th>
+	  <th>Total TTC</th>
+	</tr>
+	<tr>
+	  <td>Clavier</td>
+	  <td>50,65 &#8364</td>
+	  <td>59,99 &#8364</td>
+	  <td><center>1</center><td>
+	</tr>
+	<tr>
+	  <td>Ecran</td>
+	  <td>143,54 &#8364</td>
+	  <td>149,99 &#8364</td>
+	  <td><center>1</center><td>
+	</tr>
+	<tr>
+	  <td>Souris</td>
+	  <td>80,65 &#8364</td>
+	  <td>89,99 &#8364</td>
+	  <td><center>1</center><td>
+	</tr>
+	<tr>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td></td>
+	  <td>500 &#8364</td>
+      </table>
+      <h2>Code de promotion</h2>
+      <hr></hr>
+      <p>Si l'un des produits de votre panier beneficie d'un code promotionnel,<br />renseignez-le ici et cliquez sur OK <input type="text" size="20" placeholder="CODE PROMOTIONNEL" />
+      <input type="button" value="OK" /></p>
+      <h2>Mode de livraison</h2>
+      <hr></hr>
+      <div id="Pays">
+	<h5>Choisissez un pays</h5>
+	<select name="sPays" id="sPays">
+	  <option selected="selected">France</option>
+	  <option>Royaume Uni</option>
+	  <option>Allemagne</option>
+	  <option>Espagne</option>
+	  <option>Italie</option>
+	  <option>Suisse</option>
+	</select>
+	<img src="world.jpg" alt="" id="worldmap" />
+      </div>
+     <!--  <input type="button" value="Valider ma commande" id="Valider" />
+      <input type="button" value="Annuler ma commande" id="Annuler" /> -->
+      <div id="livreur">
+	<h5>Choisissez un livreur</h5>
+	<div id="sLivreur">
+	  <input type="radio" id="chx1" />Colissimo<br /><br />
+	  <input type="radio" id="chx2"/>DHL<br /><br />
+	  <input type="radio" id="chx3"/>UPS<br /><br />
+	  <input type="radio" id="chx4"/>Chronopost<br /><br />
+	</div>
+      </div>
+      <div id="ouLivre">
+	<h5>Ou livrer ?</h5>
+	<input type="radio" id="lvr1" />Livraison a domicile<br /><br />
+	<input type="radio" id="lvr1" />Dans une boutique Shinra<br /><br />
+      </div>
+      <h2>Validation</h2>
+      <hr></hr>
+      <div id="Valid">
+	<input type="button" value="Valider ma commande" id="Valider" />
+	<input type="button" value="Annuler ma commande" id="Annuler" />
+      </div>
+      <div id="informa">
+        <div class="footinfo">Infos Contacts:
+          <li><a>mail:shinra@gmail.com</a></li><!----><li><a>Tel: 01 15 36 95 23<\a></li>
+          <li><a>Si&egrave;ge social: 31 rue Maurice Graudcoing</a></li></div>
+	<div class="footinfo">Infos Paiements:
+	  <li><img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/MasterCard_2.gif" />
+          <img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/visa_2.gif" />
+          <img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/carte_bleue.gif" />
+          <img src="http://www.ledroitdeperdre.com/img/cards/paypal.gif" />
+          <img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/maestro_2.gif" /></li>
+	</div>
+	<div class="footinfo">Infos Livraisons:
+          <li><a>Conditions G&eacute;nerales</a></li>
+	</div>
+      </div>
+      
+</body>

@@ -1,0 +1,47 @@
+#prodlist h2
+{
+    margin-left: 100px;
+}
+
+#prodlist hr
+{
+    width: 80%;
+}
+
+#tabp
+{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#tabp th
+{
+    color: #ffffff;
+    background-color: #555555;
+    border: 1px solid #555555;
+    padding: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#tabp td
+{
+    border-bottom: 1px solid;
+}
+
+#tabp tr
+{
+    height: 20px;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.green
+{
+    color: green;
+}

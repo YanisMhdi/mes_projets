@@ -1,0 +1,67 @@
+html
+{
+    font: 1.1em sans-serif;
+}
+
+#actu
+{
+    margin-top: 20px;
+    width: 1024px;
+    height: 400px;
+}
+
+#liens ul
+{ 
+    display: table;
+    width: 900px;
+    height: 20px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    border-radius: 20px 20px 20px 20px / 30px 30px 0px 0px;
+}
+
+#liens ul li
+{ 
+    background: linear-gradient(#E50F00, #BF0500);
+    display: table-cell;
+    border-radius: 10px 10px 0px 0px / 30px 30px 0px 0px;
+    box-shadow: 1px 1px 2px #360 inset,
+                0px 0px 1px black,
+                0px -1px 1px white;
+}
+
+#liens ul li a
+{
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, .7);
+    text-decoration: none;
+#    padding: 8px 8px 8px 17px 8px;
+}
+
+#liens ul li a:hover, ul li a:focus
+{ 
+  background: rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .25) inset,
+  0px 0px 1px black,
+  0px -1px -1px white;
+}
+
+#liens ul li a:active
+{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.1));
+    box-shadow: 0 0 2px rgba(0,0,0,.3) inset; 
+}
+
+#actu a.ancre{
+    display: none;
+}
+
+#imgs
+{
+    width: 900px;
+    height: 300px;
+    border: 1px solid;
+    margin: auto;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+  <title>Shinra Corp. Produits</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="list.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <div id="body">
+    <div id="header">
+      <div id="logo">
+	<a href="index.html"><img src="images/logo.png" alt=""/></a>
+      </div>
+      <div id="search">
+	<form>
+	  <span><input type="text" name="recherche" placeholder="Recherche un produit..."/><input type="submit" value="Search"/></span>
+	</form>
+      </div>
+      <div id="connexion">
+	<img src="images/connect.png" alt="connect.png" id="img_connect" />
+	<p>Bienvenue, USER<br/>Derni&egrave;re connexion le 18/11/14<p>
+      </div>
+      <div id="panier">
+	<a href="commandes.html"><img src="images/cart.png" alt="cart.png" id="img_panier" /></a>
+	<a href="commandes.html"><p>Mon panier<br />0 Produit(s)<br />0,00 &#8364</p></a>
+      </div>
+      <div id="slogan">
+	<img src="images/ecom.jpeg" alt="ecom" id="ecom" />
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+	<li><center><a href="index.html">Accueil</a></center></li>
+	<li><center><a href="listeprod.html">Produits</a></center></li>
+	<li><center><a href="contact.html">Contact</a></center></li>
+	<li><center><a href="login.html">Connexion</a></center></li>
+      </ul>
+    </div>
+    <div id="prodlist">
+      <h2>Liste des produits</h2>
+      <hr></hr>
+      <div id="tabprod">
+	<table id="tabp">
+	  <tr>
+	    <th width="150px"></th>
+	    <th>Marque</th>
+	    <th>Nom</th>
+	    <th>Prix TTC</th>
+	    <th>Disponibilite</th>
+	  </tr>
+	  <tr>
+	    <td><a href="western.html"><img src="images/westernm.jpg" alt="" id="prod1"/></a></td>
+	    <td>Western Digital</td>
+	    <td><a href="western.html">Blue 2,5" S-ATA III 320 Go</a></td>
+	    <td>59,99&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="ssd.html"><img src="images/ssdm.jpg" alt="" id="prod2"/></a></td>
+	    <td>Kingston</td>
+	    <td><a href="ssd.html">HyperX Fury - 240 Go</a></td>
+	    <td>89,99&#8364</td>
+	    <td class="green">En stock</td></a>
+	  </tr>
+	  <tr>
+	    <td><a href="pageintel.html"><img src="images/intelm.jpg" alt="" id="prod3"/></a></td>
+	    <td>Intel</td>
+	    <td><a href="pageintel.html">Core i5 3570k</a></td>
+	    <td>209,95&#8364</td>
+	    <td class="green">En stock</td>
+	    </tr>
+	  <tr>
+	    <td><a href="corsair.html"><img src="images/corsairm.jpg" alt="" id="prod4"/></a></td>
+	    <td>Corsair</td>
+	    <td><a href="corsair.html">CX430 Bronze - 430W</a></td>
+	    <td>55,99&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="bose.html"><img src="images/bosem.jpg" alt="" id="prod5"/></a></td>
+	    <td>Bose</td>
+	    <td><a href="bose.html">Enceintes PC 2.0 Companion</a></td>
+	    <td>249,99&#8364</td>
+	    <td>En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="Wacom.html"><img src="images/wacomm.jpg" alt="" id="prod5"/></a></td>
+	    <td>Wacom</td>
+	    <td><a href="Wacom.html">Tablette graphique Intuos</a></td>
+	    <td>249,99&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="usb.html"><img src="images/usbm.jpg" alt="" id="prod5"/></a></td>
+	    <td>Kingston</td>
+	    <td><a href="usb.html">DataTraveler G3 - 8Go</a></td>
+	    <td>8,19&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="asus.html"><img src="images/asusm.jpg" alt="" id="prod5"/></a></td>
+	    <td>Asus</td>
+	    <td><a href="asus.html">ROG MARS 760 4Go</a></td>
+	    <td>439,99&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="pagep.html"><img src="images/hpm.jpg" alt="" id="prod5"/></a></td>
+	    <td>HP</td>
+	    <td><a href="pagep.html">Pavilion Beats Special Edition</a></td>
+	    <td>274,50&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	  <tr>
+	    <td><a href="Samsung.html"><img src="images/samsungm.jpg"/></a></td>
+	    <td>Samsung</td>
+	    <td><a href="Samsung.html">Galaxy Tab S</a></td>
+	    <td>370&#8364</td>
+	    <td class="green">En stock</td>
+	  </tr>
+	</table>
+      </div>
+      <div id="informa">
+      <div class="footinfo">Infos Contacts:
+	<li><a>mail:shinra@gmail.com</a></li><!----><li><a>Tel: 01 15 36 95 23</a></li>
+	<li><a>Si&egrave;ge social: 31 rue Maurice Graudcoing</a></li></div>
+	<div class="footinfo">Infos Paiements:
+	  <li><img src="images/MasterCard_2.gif" />
+	    <img src="images/visa_2.gif" />
+	    <img src="images/carte_bleue.gif" />
+	    <img src="images/paypal.gif" />
+	    <img src="images/maestro_2.gif" /></li>
+	</div>
+	  <div class="footinfo">Infos Livraisons:
+	    <li><a>Conditions G&eacute;nerales</a></li>
+	    </div>
+	    </div> 
+	    </div>
+	    </div>
+	    </div>
+	    </body>

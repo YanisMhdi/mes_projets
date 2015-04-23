@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<head>
+  <title>Shinra Corp.</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="footer.css" >  
+  <link rel="stylesheet" type="text/css" href="formulaire.css">
+</head>
+<body>
+  <div id="body">
+    <div id="header">
+      <div id="logo">
+	<a href="index.html"><img src="./images/logo.png" alt=""/></a>
+      </div>
+      <div id="search">
+	<form>
+	  <span><input type="text" name="recherche" placeholder="Recherche une produit..."><input type="submit" value="Search"></span>
+	</form>
+      </div>
+      <div id="connexion">
+	<img src="./images/connect.png" alt="connect.png" id="img_connect" />
+	<p>Bienvenue, USER<br/>Derniere connexion le 18/11/14<p>
+      </div>
+      <div id="panier">
+	<a href="commandes.html"><img src="./images/cart.png" alt="cart.png" id="img_panier" /></a>
+	<a href="commandes.html"><p>Mon panier<br />0 Produit(s)<br />0,00 &#8364</p></a>
+      </div>
+      <div id="slogan">
+	<img src="./images/ecom.jpeg" alt="ecom" id="ecom" />
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+	<li><center><a href="index.html">Acceuil</a></center></li>
+	<li><center><a href="listeprod.html">Produits</a></center></li>
+	<li><center><a href="contact.html">Contact</a></center></li>
+	<li><center><a href="login.html">Connexion</a></center></li>
+      </ul>
+    </div>
+  <div id="formulaire">
+    <h2>Formulaire d'inscription </h2>
+    <hr></hr><br />
+  <div id="identite" >
+    <div id="titre1">
+      <h5>MON IDENTITE</h5>
+    </div>
+    <form>
+     <br/><br/><br/><a>Identifiant:</a>
+      <span><input type="text" id="ch1"></span>
+    </form>
+    <form>
+      <br/><a>Adresse Email:</a>
+      <span><input type="text" id="ch2" ></span>
+    </form>
+    <form>
+      <br/><a>Mot De Passe:</a>
+      <span><input type="text" id="ch3"></span>
+    </form>
+    <form>
+     <br/> <a>Confirmer le MDP:</a>
+      <span><input type="text" id="ch4"></span>
+    </form>
+    <form>
+      <br/><a>Date De Naissance :</a>
+      <span><input type="text" id="ch5"></span>
+    </form>
+    <form>
+      <br/><a>Fixe:</a>
+      <span><input type="text"  id="ch6"></span>
+    </form>
+    <form>
+      <br/><a>Mobile:</a>
+      <span><input type="text" id="ch7"></span>
+    </form>
+  </div>
+  <div id="facturation">
+    <div id="titre2">
+      <h5> ADRESSE DE FACTURATION </h5>
+    </div>
+    <br/><a><input type="radio"/>M<input type="radio"/>Mme<input type="radio"/>Mlle</a>
+    <br/>
+    <form>
+      <br/><a>NOM:</a>
+      <span><input type="text" id="cp1"></span>
+    </form>
+    <form>
+      <br/><a>Prenom:</a>
+      <span><input type="text" id="cp2"></span>
+    </form>
+    <form>
+      <br/><a>Adresse:</a>
+      <span><input type="text" id="cp3"></span>
+    </form>
+    <form>
+      <br/><a>Complements:</a>
+      <span><input type="text" id="cp4"></span>
+    </form>
+    <form>
+      <br/><a>Ville:</a>
+      <span><input type="text" id="cp5"></span>
+    </form>
+    <form>
+      <br/><a>Code Postal:</a>
+      <span><input type="text" id="cp6"></span>
+    </form>
+    <form>
+      <br/><a>Pays:</a>
+      <select name="sPays" id="sPays">
+	<option selected="selected">France</option>
+	<option>Allemagne</option>			
+	<option>Angleterre</option>
+	<option>Belgique</option>
+	<option>Espagne</option>
+	<option>Italie</option>
+	<option>Pays-Bas</option>
+	<option>Suisse</option>
+      </select>
+    </form>
+  </div>
+  <div id="confirmation">
+    <form>
+      <a><input type="checkbox"/>Oui, je souhaites m'inscrire a la newletter</a>
+    </form>
+    <form>
+      <a><input type="checkbox"/>Je certifie exactes les informations renseign&eacute;es dans les champs ci-dessus et conforme &agrave; chaque libell&eacute; et accepte que celles-ci servent de base &agrave; la facturation de mes prochaines commandes.</a><br/>
+    </form>
+	<form>
+	  <input type="submit" value="Annuler" id="annuler" onclick="index.html"/>
+	  <input type="submit" value="Valider" id="valider" onclick="self.location" href="index.html"/>
+	</form>
+  </div>
+  <div id="informa">
+    <div class="footinfo">Infos Contacts:
+      <li><a>mail:shinra@gmail.com</a></li><!----><li><a>Tel: 01 15 36 95 23</a></li>
+      <li><a>Si&egrave;ge social: 31 rue Maurice Graudcoing</a></li></div>
+    <div class="footinfo">Infos Paiements:
+      <li><img src="images/MasterCard_2.gif" />
+        <img src="images/visa_2.gif" />
+        <img src="images/carte_bleue.gif" />
+        <img src="images/paypal.gif" />
+        <img src="images/maestro_2.gif" /></li>
+    </div>
+    <div class="footinfo">Infos Livraisons:
+      <li><a>Conditions G&eacute;nerales</a></li>
+    </div>
+  </div>
+</body>

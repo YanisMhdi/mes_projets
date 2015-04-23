@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <title>Shinra Corp.</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="menu2.css">
+  <link rel="stylesheet" type="text/css" href="promo.css">
+</head>
+<body>
+  <div id="body">
+    <div id="header">
+      <div id="logo">
+      </div>
+      <div id="search">
+	<form>
+	  <span><input type="text" name="recherche" placeholder="Recherche une produit..."><input type="submit" value="Search"></span>
+	</form>
+      </div>
+      <div id="connexion">
+	<img src="connect.png" alt="connect.png" id="img_connect" />
+	<p>Bienvenue, USER<br/>Derniere connexion le 18/11/14<p>
+      </div>
+      <div id="panier">
+	<img src="cart.png" alt="cart.png" id="img_panier" />
+	<p>Mon panier<br />0 Produit(s)<br />0,00 &#8364</p>
+      </div>
+      <div id="slogan">
+	<img src="ecom.jpeg" alt="ecom" id="ecom" />
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+	<li><center><a href="#m1">Acceuil</a></center></li>
+	<li><center><a href="#m2">Produits</a></center></li>
+	<li><center><a href="#m3">Contact</a></center></li>
+	<li><center><a href="#m4">S.A.V</a></center></li>
+      </ul>
+    </div>

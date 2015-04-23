@@ -1,0 +1,121 @@
+#tab
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+#tab th
+{
+    color: #ffffff;
+    background-color: #555555;
+    border: 1px solid #555555;
+    padding: 3px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#tab tr
+{
+#    display: table-row;
+#    vertical-align: inherit;
+#    border-color: inherit;
+    border: 1px solid;
+}
+#tab td
+{
+    border: 1px solid;
+}
+
+#tab tr
+{
+    background-color: #ffffff;
+}
+
+#Valider
+{
+    margin-left: 300px;
+    margin-top: 20px;
+    font-weight: bold;
+    float: middle;
+    background: linear-gradient(lightgreen, green);;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    margin-right: 100px;
+    border:1px solid #d0d0d0;
+}
+
+#Annuler
+{
+    margin-top: 20px;
+    font-weight: bold;
+    float: middle;
+    background: linear-gradient(#E50F00, #BF0500);
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    border:1px solid #d0d0d0;
+}
+
+h2
+{
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+    background: 
+}
+
+hr
+{
+    width: 80%;
+}
+
+#tableau p
+{
+    margin-left: 100px;
+}
+
+#Pays
+{
+    position: relative;
+    float:left;
+    height: 245px;
+    margin-left: 100px;
+    width: 200px;
+    border-right : 1px solid;
+}
+
+#worldmap
+{
+    position: relative;
+    float: left;
+    margin-top: 30px;
+}
+
+#livreur
+{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    width:300px;
+    height: 245px;
+    border-right: 1px solid;
+}
+
+#sLivreur
+{
+    width: 200px;
+    height:120px;
+}
+
+#ouLivre
+{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+    height: 245px;
+}

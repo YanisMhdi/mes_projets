@@ -1,0 +1,28 @@
+.footinfo li 
+{
+    list-style-type:none;
+}
+
+.footinfo 
+{
+    background-color:#696969;
+    float:left;
+    margin:auto;
+    color:#FFFFFF;
+    border:solid 12px #696969;
+}
+
+#informa
+{
+    position: relative;
+    float: left;
+    margin-left:0.5px;
+    margin-top: 50px;
+    height:200px;
+    width:1023px;
+    border: 1px solid;
+    background-color:#696969;
+    cursor:pointer;
+    border-radius:5px;
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <title>Shinra Corp. HP Pavillon</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="menu2.css">
+  <link rel="stylesheet" type="text/css" href="pagep.css">
+  <link rel="stylesheet" type="text/css" href="promo.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <div id="body">
+    <div id="header">
+      <div id="logo">
+	<a href="index.html"><img src="logo.png" alt=""/></a>
+      </div>
+      <div id="search">
+        <form>
+          <span><input type="text" name="recherche" placeholder="Recherche une \
+produit..."><input type="submit" value="Search"></span>
+        </form>
+      </div>
+      <div id="connexion">
+        <img src="connect.png" alt="connect.png" id="img_connect" />
+        <p>Bienvenue, USER<br/>Derni&egrave;re connexion le 18/11/14<p>
+      </div>
+      <div id="panier">
+        <img src="cart.png" alt="cart.png" id="img_panier" />
+        <p>Mon panier<br />0 Produit(s)<br />0,00 &#8364</p>
+      </div>
+      <div id="slogan">
+        <img src="ecom.jpeg" alt="ecom" id="ecom" />
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><center><a href="index.html">Accueil</a></center></li>
+        <li><center><a href="listeprod.html">Produits</a></center></li>
+        <li><center><a href="contact.html">Contact</a></center></li>
+        <li><center><a href="login.html">Connexion</a></center></li>
+      </ul>
+    </div>
+    <div id="photop">
+<img src="http://pcportable.laboussole.fr/pcportable/images/produit/23188424-HP.jpg" />
+    </div>
+    <div id="Description">
+HP - Pavilion 15-p012nf Beats Special Edition
+AMD A A8-5545M @ 1700 MHz - 750 Go - Ecran 15.6"
+<br></br><dc>Prix: 274,50 &euro; TTC</dc>
+<input type="button" id="bouton5" value="Ajouter">
+<br></br><br><bd>Ecran tactile 15 pouces</br>
+<br>Stockage et m&eacute;moire : disque dur 1000 Go, RAM 4 Go</br>
+<br>AMD Quad-Core A8-5545M APU 1.7 Ghz</br>
+<br>Carte Graphique : AMD Radeon HD 8510G</br>
+<br>1 port HDMI; 1 port USB 2.0; 2 ports USB 3.0; 1 prise jack</br>
+<br>Haut-parleurs doubles et caisson de basse BeatsAudio&#153</bd></br>
+    </div>
+<hr></hr>
+    <div id="Prix">
+  <br><bd> Avec une capacit&eacute; de 750 Go, vous pourrez sauvegarder sans probl&egrave;me de nombreux films et photos. L'&eacute;cran tactile de 15.6 pouces est de bonne taille : vous pourrez visionner des films ou travailler longtemps sans fatigue. Avec 2.71 kg, cet ordinateur n'est pas des plus l&eacute;gers, mais demeure transportable. La AMD Radeon HD 8510G est une carte graphique de bonne qualit&eacute;, adapt&eacute;e pour jouer avec la plupart des jeux actuels. Son autonomie, relativement faible, le destine surtout &agrave; un usage local, &agrave; proximit&eacute; d'une prise de courant. Enfin, avec son DVD Super Multi, il vous sera facile de faire des sauvegardes de vos photos ou de vos donn&eacute;es sur DVD ou encore de regarder des films. Ce produit est actuellement en promotion.</bd></br>
+   </div>
+<div id="informa">
+        <div class="footinfo">Infos Contacts:
+        <li><a>mail:shinra@gmail.com</a></li><!----><li><a>Tel: 01 15 36 95 23</a></li>
+        <li><a>Si&egrave;ge social: 31 rue Maurice Graudcoing</a></li></div>
+      <div class="footinfo">Infos Paiements:
+        <li><img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/MasterCard_2.gif" />
+          <img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/visa_2.gif" />
+          <img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/carte_bleue.gif" />
+          <img src="http://www.ledroitdeperdre.com/img/cards/paypal.gif" />
+          <img src="http://www.laboutiquefrankmichael.com/boutique/themes/matrice_bis/img/maestro_2.gif" /></li>
+      </div>
+      <div class="footinfo">Infos Livraisons:
+        <li><a>Conditions G&eacute;nerales</a></li>
+      </div>
+    </div>
+  </div>
+</body>

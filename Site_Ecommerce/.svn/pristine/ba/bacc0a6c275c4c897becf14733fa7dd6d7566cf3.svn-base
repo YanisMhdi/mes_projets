@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+  <title>Shinra Corp. Bose</title>
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link rel="stylesheet" type="text/css" href="menu.css">
+  <link rel="stylesheet" type="text/css" href="menu2.css">
+  <link rel="stylesheet" type="text/css" href="pagep.css">
+  <link rel="stylesheet" type="text/css" href="promo.css">
+  <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+  <div id="body">
+    <div id="header">
+      <div id="logo">
+	<a href="index.html"><img src="images/logo.png" alt=""/></a>
+      </div>
+      <div id="search">
+        <form>
+          <span><input type="text" name="recherche" placeholder="Recherche un produit..."/><input type="submit" value="Search"/></span>
+        </form>
+      </div>
+      <div id="connexion">
+        <img src="images/connect.png" alt="connect.png" id="img_connect" />
+        <p>Bienvenue, USER<br/>Derni&egrave;re connexion le 18/11/14<p>
+      </div>
+      <div id="panier">
+        <img src="images/cart.png" alt="cart.png" id="img_panier" />
+        <p>Mon panier<br />0 Produit(s)<br />0,00 &#8364</p>
+      </div>
+      <div id="slogan">
+        <img src="images/ecom.jpeg" alt="ecom" id="ecom" />
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><center><a href="index.html">Accueil</a></center></li>
+        <li><center><a href="listeprod.html">Produits</a></center></li>
+        <li><center><a href="contact.html">Contact</a></center></li>
+        <li><center><a href="sav.html">S.A.V</a></center></li>
+      </ul>
+    </div>
+    <div id="photop">
+<img src="http://www.materiel.net/live/228837.jpg" />
+    </div>
+    <div id="Description">
+Bose - Enceinte PC 2.0 Companion
+<br></br><dc>Prix: 209.95 &euro; TTC</dc>
+<input type="button" id="bouton5" value="Ajouter">
+<br></br><br><bd>Item dimensions L x W x H: 11.9 x 8.9 x 21.9 centimeter</br>
+  <br>Connectivit&eacute;: Avec fil</br>
+<br>Type d'interface d'&eacute;couteurs: 3.5 mm</br>
+<br>Type de source d'alimentation: Courant alternatif</br>
+<br>Commande de volume: Rotatif</br>
+    </div>
+<hr></hr>
+    <div id="Prix">
+<br><bd>L&agrave; o&ugrave; elles passent, les enceintes PC Companion&reg; 20 se font ind&eacute;niablement remarquer. De part leur look d&eacute;j&agrave;, chaque satellite m&eacute;langeant des rev&ecirc;tements mat gris et une grille en aluminium. Un style chic et &eacute;l&eacute;gant qui r&eacute;v&egrave;le une certaine modernit&eacute;, parfait pour votre int&eacute;rieur.Ressentez pleinement l'intensit&eacute; des sc&egrave;nes d'action de vos films favoris, montez en tension lors des assauts strat&eacute;giques dans vos jeux ou red&eacute;couvrez vos musiques pr&eacute;f&eacute;r&eacute;es... Tout cela gr&acirc;ce &agrave; des basses puissantes et riches apportant de la profondeur.</bd></br> 
+  </div>
+<div id="informa">
+        <div class="footinfo">Infos Contacts:
+        <li><a>mail:shinra@gmail.com</a></li><!----><li><a>Tel: 01 15 36 95 23</a></li>
+        <li><a>Si&egrave;ge social: 31 rue Maurice Graudcoing</a></li></div>
+      <div class="footinfo">Infos Paiements:
+        <li><img src="images/MasterCard_2.gif" />
+          <img src="images/visa_2.gif" />
+          <img src="images/carte_bleue.gif" />
+          <img src="images/paypal.gif" />
+          <img src="images/maestro_2.gif" /></li>
+      </div>
+      <div class="footinfo">Infos Livraisons:
+        <li><a>Conditions G&eacute;nerales</a></li>
+      </div>
+    </div>
+  </div>
+</body>

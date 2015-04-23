@@ -1,0 +1,424 @@
+body
+{
+    background: url('footer_lodyas.png');
+}
+
+a:link
+{
+    text-decoration: none;
+    color: blue;
+}
+
+#body
+{
+    width: 1024px;
+    margin: auto;
+    height: 2000px;
+    border: 2px solid;
+    background: white;
+}
+
+#header
+{
+    width: 1024px;
+    height: 200px;
+   # border: 1px solid;
+}
+
+#logo
+{
+    width: 200px;
+    height: 200px;
+    #border: 1px solid;
+    position: relative;
+    float:left;
+    background-repeat: no-repeat;
+}
+
+#search
+{
+    margin : 3px;
+    margin-top: 20px;
+    margin-left: 50px;
+    position: float;
+    width: 500px;
+    height: 50px;
+   # border : 1px solid;
+    position: relative;
+    float:left;
+    padding:6px 15px 6px 40px;
+}
+
+#connexion
+{
+    margin-top: 20px;
+    margin-left: 840px;
+    width: 180px;
+    height:80px;
+    #border: 1px solid;
+    position: absolute;
+    float: right;
+    z-index: 0;
+}
+
+#panier
+{
+    margin-top: 90px;
+    margin-right: 33px;
+    width: 150px;
+    height: 80px;
+    #border: 1px solid;
+    position: relative;
+    float: right;
+    z-index: 1;
+}
+
+#slogan
+{
+    width: 550px;
+    height: 100px;
+   # border: 1px solid;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#ecom
+{
+    margin-left: 100px;
+}
+
+#search input[type=text]
+{
+    margin-top: 10px;
+    border-radius: 5px;
+    border:1px solid #d0d0d0;
+    background-color:#fcfcfc;
+    width: 300px;
+    color:#bcbcbc;
+    padding : 3px 10px 3px 33px;
+    background: url('search.png') no-repeat 5px 3px;
+    height: 24px;
+}
+
+#search input[type=submit]
+{
+    position: relative;
+    left: -4px;
+    margin-left: 5px;
+    border-radius : 5px;
+    width: 80px;
+    height: 28px;
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+}
+
+#connexion input[type=button]
+{
+    width: 90px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+#connexion p
+{
+    margin-left: 35px;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+#img_connect
+{
+    position: absolute;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#img_sign
+{
+    postion: relative;
+    margin-left:5px;
+}
+
+#img_panier
+{
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+#panier p
+{
+    position: relative;
+    font-size: 0.8em;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+#top
+{
+    background: white;
+    position: relative;
+    float: left;
+    width: 500px;
+    height: 500px;
+}
+
+#new
+{
+     background: white;
+    position: relative;
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+#promo
+{
+    background: white;
+    position: relative;
+    float: left;
+    width: 1024px;
+    height: 350px;
+}
+
+hr
+{
+    border-color: red;
+}
+
+#top1
+{
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+#top2
+{
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+#ntop1
+{
+    margin-left: 90px;
+    postion : relative;
+    float: left;
+}
+
+#ntop2
+{
+    margin-left: 40px;
+    position: relative;
+    float: left;
+}
+
+#addCart
+{
+    width: 500px;
+    height:250px;
+}
+#addCartNew
+{
+    width: 500px;
+    height:250px;
+}
+
+#addTop1
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 110px;
+    border-radius: 5px;
+}
+
+#addTop2
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 130px;
+}
+
+#nnew1
+{
+    margin-left: 50px;
+    position : relative;
+    float: left;
+}
+
+#nnew2
+{
+    margin-left: 50px;
+    position : relative;
+    float: left;
+}
+
+#new1
+{
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-left: 80px;
+}
+#new2
+{
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+
+#addNew1
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 110px;
+    border-radius: 5px;
+}
+
+#addNew2
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 130px;
+    border-radius: 5px;
+}
+
+#promo1
+{
+    position: relative;
+    margin-left: 45px;
+}
+
+#promo2 {
+position: relative;
+margin-left: 55px;
+}
+
+#promo3 {
+position:relative;
+margin-left: 50px;
+}
+
+#promo4 {
+position:relative;
+margin-left: 35px;
+}
+
+#name1 {
+position: absolute;
+height:20px;
+width:180px;
+margin-left:60px;
+margin-top:30px;
+margin-bottom:30px;
+font-family:sans-serif;
+}
+
+#name2 {
+position:absolute;
+height:20px;
+width:180px;
+margin-left:310px;
+margin-top:30px;
+margin-bottom:30px;
+font-family:sans-serif;
+}
+
+#name3 {
+position: absolute;
+height:20px;
+width:180px;
+margin-left:550px;
+margin-top:30px;
+margin-bottom:30px;
+font-family:sans-serif;
+}
+
+#name4 {
+
+height:20px;
+width:180px;
+margin-left:790px;
+margin-top:40px;
+margin-bottom:30px;
+font-family:sans-serif;
+}
+
+#bouton1
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 110px;
+    border-radius: 5px;
+    margin-top:25px;
+}
+
+#bouton2
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 180px;
+    border-radius: 5px;
+    margin-top:25px;
+}
+
+#bouton3
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 170px;
+    border-radius: 5px;
+    margin-top:25px;
+}
+
+#bouton4
+{
+    border:1px solid #383838;
+    background: linear-gradient(#E50F00, #BF0500);
+    color: rgba(0, 0, 0, .7);
+    cursor: pointer;
+    margin-left: 155px;
+    border-radius: 5px;
+    margin-top:25px;
+}
+cen {
+margin-left:110px;
+color: #AE0C0C;
+}
+cen1 {
+margin-left:120px;
+color: #AE0C0C;
+}
+cen4 {
+margin-left:180px;
+color: #AE0C0C;
+}
+cen2 {
+margin-left:170px;
+color: #AE0C0C;
+}
+cen3 {
+margin-left:170px;
+color: #AE0C0C;
+}
