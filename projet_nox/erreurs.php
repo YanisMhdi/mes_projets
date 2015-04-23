@@ -1,12 +1,4 @@
 <?php
-// erreurs.php for Nox in /home/diman_i/0test
-//
-// Made by Diman Ioan-Adrian
-// Login   <diman_i@etna-alternance.net>
-//
-// Started on  Fri Nov  7 17:31:49 2014 Diman Ioan-Adrian
-// Last update Mon Nov 10 16:19:05 2014 Diman Ioan-Adrian
-//
 
 function	erreur($argv, $argc)
 {
