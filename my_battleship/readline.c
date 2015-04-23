@@ -1,10 +1,3 @@
-/*
-  Cette fonction permet de récuper une ligne
-  de moins de 50 caractères sur l'entrée standard.
-  La fonction ne prend pas de paramètre et renvoit une chaîne
-  allouée (pensez a free()).
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
