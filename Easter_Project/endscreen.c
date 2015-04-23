@@ -1,13 +1,3 @@
-/*
-** endscreen.c for  in /home/regency
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Sun Apr 12 12:15:20 2015 IRICANIN Filip
-** Last update Mon Apr 13 09:36:51 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
