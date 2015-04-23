@@ -1,12 +1,3 @@
-/*
-** start.c for  in /home/mohamd_y/Piscine/Langage_C/my_battleship
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Fri Oct  3 21:10:06 2014 MOHAMDI Yanis
-** Last update Sat Oct  4 14:14:05 2014 MOHAMDI Yanis
-*/
 void    display_map(int battlefield[10][10], char *str);
 void	display_count(int count);
 char    *readLine();
@@ -16,11 +7,7 @@ void	my_putchar(char c);
 void	my_putstr(char *str);
 char	*my_strupcase(char *str);
 
-/*
-** FONCTION START
-** Regroupe le deroulement d'une partie
-** Chaque iteration du while compte comme un tour
-*/
+
 void	start(int count, int battlefield[10][10])
 {
   int	end;
