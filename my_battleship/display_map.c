@@ -1,21 +1,9 @@
-/*
-** display_map.c for  in /home/mohamd_y/Piscine/Langage_C/my_battleship
-** 
-** Made by MOHAMDI Yanis
-** Login   <mohamd_y@etna-alternance.net>
-** 
-** Started on  Fri Oct  3 21:28:18 2014 MOHAMDI Yanis
-** Last update Sat Oct  4 13:52:05 2014 MOHAMDI Yanis
-*/
 void	my_putstr(char *str);
 void	my_putchar(char c);
 char    char_battlefield(int i);
 void    bf_display(int *i, int *j, int bf[10][10]);
 
-/*
-** FONCTION DISPLAY MAP
-** Affiche le champ de bataille complet
-*/
+
 void	display_map(int battlefield[10][10], char *str)
 {
   int	i;
@@ -34,10 +22,6 @@ void	display_map(int battlefield[10][10], char *str)
   my_putchar('\n');
 }
 
-/*
-** FONCTION BF DISPLAY
-** Gere l'affichage du champ de bataille
-*/
 void	bf_display(int *i, int *j, int bf[10][10])
 {
   for (*i = 0; *i < 10; ++(*i))
@@ -64,11 +48,6 @@ void	bf_display(int *i, int *j, int bf[10][10])
     }
 }
 
-/*
-** FONCTION CHAR BATTLEFIELD
-** Gere l'affichage du statue de chaque partie du
-** champ de bataille
-*/
 char	char_battlefield(int i)
 {
   char	c;
