@@ -1,13 +1,3 @@
-/*
-** hero.c for  in /home/regency
-** 
-** Made by IRICANIN Filip
-** Login   <irican_f@etna-alternance.net>
-** 
-** Started on  Sun Apr 12 12:24:10 2015 IRICANIN Filip
-** Last update Mon Apr 13 09:41:12 2015 IRICANIN Filip
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
